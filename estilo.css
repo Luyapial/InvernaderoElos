@@ -2,11 +2,15 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: Century Gothic;
+	
 }
-
+#titulo-central {
+    text-align: center;
+}
 body {
 	background-color: #ededed;
 	background-image: url('invernader_2.png');
+	mix-blend-mode: multiply;
 	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
