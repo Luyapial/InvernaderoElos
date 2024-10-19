@@ -5,15 +5,19 @@
 	
 }
 #titulo-central {
-    text-align: center;
+    font-weight: bold;
+	text-align: center;
 }
 body {
 	background-color: #ededed;
 	background-image: url('invernader_2.png');
-	mix-blend-mode: multiply;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+	opacity: 0.75;
 	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
+	filter: brightness(50%);
 }
 
 div {
@@ -28,6 +32,9 @@ input {
 	border: solid 1px #aaa;
 	width: 80%
 }
-input[type="button"] {
+input[type="button"] 
+{
+	font-weight: bold;
 	width: 15%
+	hover background-color #3e8e41;
 }
